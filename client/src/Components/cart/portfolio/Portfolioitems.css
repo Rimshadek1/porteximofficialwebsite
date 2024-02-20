@@ -138,11 +138,11 @@
 
     .portfoliovalue {
         margin-top: 30px;
-        width: 95%;
+        width: 90%;
         height: 130px;
         background: white;
         border-radius: 10px;
-        margin-left: 50px;
+        margin-left: 5%;
     }
 
     .portfoliovalue .values {
@@ -161,14 +161,12 @@
         flex-wrap: wrap;
         width: 95%;
         margin-left: 5%;
-        /* Allow items to wrap to the next line on smaller screens */
     }
 
     .total .monthlyincome,
     .total .totalincome,
     .total .capitalappreciation {
-        width: 100%;
-        /* Take full width on smaller screens */
+        width: 95%;
         height: 100px;
         background: white;
         margin-left: 0;
@@ -216,10 +214,6 @@
         width: 95%;
     }
 
-    .table-heading {
-        display: none;
-    }
-
     .percentage {
         margin-left: 0;
         margin-top: 12px;
@@ -240,16 +234,21 @@
     .transactiontable {
         margin-bottom: 20px;
         margin-left: 5%;
+        width: 90%;
+    }
+
+    .table-heading {
+        display: none;
     }
 }
 
 @media (max-width: 700px) {
     .portfoliovalue {
         margin-top: 30px;
-        width: 93%;
+        width: 89.5%;
         height: 130px;
         background: white;
         border-radius: 10px;
-        margin-left: 20px;
+        margin-left: 5.25%;
     }
 }

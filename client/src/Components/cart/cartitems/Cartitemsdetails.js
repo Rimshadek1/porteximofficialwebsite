@@ -160,7 +160,7 @@ function Cartitemsdetails() {
                             </div>
                         ))
                     ) : (
-                        <p>No items in the cart</p>
+                        <p className='noitems'>No items in the cart</p>
                     )}
                 </div>
                 <div className="carttotal">

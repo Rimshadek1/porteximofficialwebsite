@@ -175,6 +175,10 @@
     background: rgb(0, 0, 27);
 }
 
+.noitems {
+    margin-left: 5%;
+}
+
 @media (max-width: 768px) {
     .fullcartitemdetail {
         margin-left: 0%;

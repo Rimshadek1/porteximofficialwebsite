@@ -127,15 +127,14 @@
     }
 
     .table-heading {
-        font-weight: normal;
-
+        font-weight: bold;
         margin-bottom: 10px;
         border: none;
         border-bottom: 1px solid #080808;
     }
 
     .tablebody {
-        height: 260px;
+        height: auto;
         background: white;
         text-align: center;
     }
@@ -205,6 +204,7 @@
 @media (max-width: 1250px) {
     .readytoshrinks {
         margin-left: 10%;
+        margin-top: 5%;
     }
 
     .h5wallet {
@@ -224,6 +224,7 @@
         /* flex-direction: column; */
         margin-top: 20px;
     }
+
 
     .cashfull {
         margin-top: 10px;
@@ -330,6 +331,15 @@
         margin-top: 10px;
         background: white;
         border-color: rgb(238, 238, 238);
+        border-radius: 10px;
+    }
+
+    .transactiontable {
+        margin-left: 3.5%;
+        margin-top: 30px;
+        width: 85%;
+        height: 300px;
+        background: white;
         border-radius: 10px;
     }
 }
