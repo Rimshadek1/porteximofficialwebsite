@@ -1,0 +1,61 @@
+import React from 'react';
+
+const ProgressBar = (props) => {
+    const { bgcolor, progress, height } = props;
+
+    const containerStyles = {
+        display: 'flex',
+        alignItems: 'center',
+        height: height,
+        width: '30%',
+        backgroundColor: "#e0e0de",
+        borderRadius: 50,
+        marginLeft: 130,
+        marginTop: -12,
+        color: 'black',
+    }
+
+    const shipIconStyles = {
+        marginRight: '10px',
+    };
+
+    const fillerStyles = {
+        height: '100%',
+        width: `${progress}%`,
+        backgroundColor: bgcolor,
+        borderRadius: 'inherit',
+        textAlign: 'right',
+        transition: 'width 1s ease-in-out',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'flex-end',
+    }
+
+    const textContainerStyles = {
+        display: 'flex',
+        alignItems: 'center',
+    };
+
+    const textOutsideBarStyles = {
+        position: 'relative',
+        color: 'black',
+        fontWeight: '600',
+        top: '-15px',
+        left: '230px',
+    };
+
+    return (
+        <div>
+            <i className="fa-solid fa-ship" style={shipIconStyles}></i>
+            <span style={{ color: 'rgba(0, 0, 0, 0.6)', marginLeft: '10px' }}>Container</span>
+            <div style={containerStyles}>
+                <div style={fillerStyles}></div>
+            </div>
+            <div style={textContainerStyles}>
+                <span style={textOutsideBarStyles}>{`${progress}% sold`}</span>
+            </div>
+        </div>
+    );
+}
+
+export default ProgressBar;

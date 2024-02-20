@@ -1,0 +1,335 @@
+@media (min-width: 1250px) {
+    .readytoshrinks {
+        margin-left: 19%;
+    }
+
+    .h5wallet {
+        margin: 40px;
+    }
+
+    .cashreward {
+        display: flex;
+    }
+
+    .cash,
+    .reward {
+        background: white;
+        width: 40%;
+        height: 130px;
+        margin-left: 7%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cashfull {
+        margin: 30px;
+        width: 30%;
+        flex-grow: 1;
+    }
+
+    .cashfull p {
+        font-size: 15px;
+        color: darkgrey;
+    }
+
+    .cashfull h4 {
+        font-size: 40px;
+
+    }
+
+    .button-container {
+        justify-content: space-between;
+        flex-direction: column;
+        width: 30%;
+        margin-top: -70px;
+        margin-left: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .star {
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+        font-size: 50px;
+        margin: 30px;
+    }
+
+    .buttondw button {
+        border-radius: 10px;
+    }
+
+    .withbutton {
+        border-radius: 10px;
+        height: 35px;
+        width: 100%;
+        font-size: 13px;
+        color: rgb(218, 218, 218);
+        border: none;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background: rgb(231, 231, 231);
+    }
+
+    .depbutton {
+        border-radius: 10px;
+        height: 35px;
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 10px;
+        color: rgb(240, 240, 240);
+        background: rgb(168, 168, 168);
+        align-items: center;
+        justify-content: center;
+        border: none;
+        display: flex;
+    }
+
+    .depbutton:hover {
+        background: rgb(204, 204, 204);
+    }
+
+    .withbutton:hover {
+        border: solid;
+        color: rgb(255, 255, 255);
+    }
+
+    .button-container i {
+        font-size: 50px;
+        margin-left: 19%;
+        margin-top: -17%;
+    }
+
+    .readytoshrinks {
+        width: 80%;
+        margin-left: 19%;
+
+    }
+
+
+
+
+    .transaction {
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    .transactiontable {
+        margin-left: 3.5%;
+        margin-top: 30px;
+        width: 90%;
+        height: 300px;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .table-heading {
+        font-weight: normal;
+
+        margin-bottom: 10px;
+        border: none;
+        border-bottom: 1px solid #080808;
+    }
+
+    .tablebody {
+        height: 260px;
+        background: white;
+        text-align: center;
+    }
+
+    .tablebody i {
+        display: block;
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .tablebody h6 {
+        font-weight: normal;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .cardsandbanks {
+        display: flex;
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .divcard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        background: white;
+        height: 130px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .divcard button {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        background: white;
+        border-color: rgb(238, 238, 238);
+        border-radius: 10px;
+    }
+
+    .divcard button:hover {
+        border-color: rgb(170, 170, 170);
+    }
+
+    .divcard button p {
+        margin-left: 10px;
+        /* Adjust the margin as needed */
+        color: rgb(175, 175, 175);
+    }
+
+    .divcard button i {
+        color: rgb(175, 175, 175);
+    }
+
+    .divcard span {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .readytoshrinks {
+        margin-left: 10%;
+    }
+
+    .h5wallet {
+        font-size: 14px;
+    }
+
+
+    .cash,
+    .reward {
+        background: white;
+        width: 85%;
+        height: 120px;
+        margin-left: 0%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+        margin-top: 20px;
+    }
+
+    .cashfull {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .button-container {
+        margin-top: 10px;
+        width: 200%;
+        display: flex;
+    }
+
+    .withbutton {
+        border-radius: 10px;
+        height: 35px;
+        font-size: 10px;
+        width: 30%;
+        font-size: 13px;
+        color: rgb(218, 218, 218);
+        border: none;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        display: flex;
+    }
+
+    .depbutton {
+        border-radius: 10px;
+        height: 35px;
+        width: 30%;
+        font-size: 13px;
+        margin-bottom: 10px;
+        color: rgb(240, 240, 240);
+        background: rgb(168, 168, 168);
+        text-align: center;
+        justify-content: center;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        display: flex;
+    }
+
+    .star {
+        font-size: 50px;
+        margin: 20px;
+    }
+
+    .transactiontable {
+        margin-left: 5%;
+        margin-top: 30px;
+        width: 90%;
+        height: 300px;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .transaction h6 {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .move {
+        position: relative;
+        left: -5%;
+        width: 85%;
+        background: white;
+        height: 200px;
+    }
+
+    .cards h6 {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .banks h6 {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .banks {
+        margin-bottom: 40px;
+    }
+
+    .divcard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+        background: white;
+        height: 130px;
+        margin-top: 20px;
+        border-radius: 10px;
+
+    }
+
+    .divcard button {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        background: white;
+        border-color: rgb(238, 238, 238);
+        border-radius: 10px;
+    }
+}

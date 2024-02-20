@@ -1,0 +1,48 @@
+.navbarss {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightsides {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.rightsides i:hover {
+    color: orangered;
+}
+
+.expanded-items {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.expanded-items ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.expanded-items ul li {
+    cursor: pointer;
+}
+
+.expanded-items ul li:hover {
+    color: orangered;
+}
+
+.expanded-items .active {
+    color: orangered;
+}
+
+@media (min-width: 1250px) {
+    .navbarss {
+        display: none;
+    }
+}

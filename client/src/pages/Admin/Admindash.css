@@ -1,0 +1,21 @@
+.adminfullview {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.dashtable {
+    margin: 15%;
+}
+
+.img-preview {
+    max-width: 100px;
+    /* Adjust the max-width as per your requirement */
+    max-height: 100px;
+    /* Adjust the max-height as per your requirement */
+}
+
+.zoomed {
+    transform: scale(5);
+    /* Zoom in effect (adjust the scale value as needed) */
+}

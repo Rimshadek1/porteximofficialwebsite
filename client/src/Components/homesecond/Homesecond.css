@@ -1,0 +1,182 @@
+.fullsecond {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    margin-top: 350px;
+}
+
+.howitsworks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works {
+    font-size: 4vw;
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.worksp {
+    font-size: 1vw;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.browsecollection {
+    width: 18%;
+    margin-left: 5.6%;
+    /* Added margin for better spacing between items */
+    color: gray;
+    transition: color 0.3s;
+    text-align: center;
+    /* Center the text */
+    margin-bottom: 10px;
+}
+
+.browsecollection:hover {
+
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.browsecollection:hover i {
+    color: orangered;
+}
+
+
+.browsecollection.active {
+
+    color: rgb(0, 0, 0);
+}
+
+.browsecollection.active i {
+
+    color: orangered !important;
+}
+
+
+.browsecollection .head {
+    font-size: 2vw;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.browsecollection p {
+    font-size: 13px;
+    margin-top: 20px;
+
+}
+
+.imageofhow {
+    margin-top: 20%;
+
+    width: 100%;
+    min-height: 300px;
+    /* Adjusted to a minimum height for better responsiveness */
+    background: rgb(32, 32, 54);
+    position: relative;
+}
+
+.imageofhow img {
+    width: 100%;
+    height: auto;
+    margin: 0px -0%;
+    top: 0;
+    left: 0;
+    margin-top: -40%;
+}
+
+
+.divdetails {
+    width: 30%;
+    margin: 0px 7%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.searchbar {
+    width: 10%;
+    height: 70px;
+    margin: 0px 65%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.searchbar i {
+    font-size: 3vw;
+    color: orangered;
+}
+
+.line {
+    width: 20%;
+    height: 5px;
+    background: orangered;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+
+
+.divdetails p {
+    font-size: 1vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+@media (max-width: 780px) {
+    .fullsecond {
+        margin-top: -350px;
+    }
+
+    .browsecollection i {
+        display: none;
+    }
+
+    .browsecollection .head1 {
+        display: none;
+    }
+
+    .browsecollection .head {
+        margin-top: 2%;
+    }
+
+
+    .browsecollection {
+        background: grey;
+        color: white;
+        border-radius: 10px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .browsecollection.active {
+        background: orangered;
+        color: white;
+    }
+}

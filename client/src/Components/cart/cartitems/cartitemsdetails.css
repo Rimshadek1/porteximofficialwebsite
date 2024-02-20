@@ -1,0 +1,217 @@
+.fullcartitemdetail {
+    margin-left: 19%;
+}
+
+.fullcartitemdetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left {
+    margin-right: auto;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.right {
+    margin-left: auto;
+    height: auto;
+    font-size: 1vw;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+
+
+.cartitems {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.cartitem {
+    background: white;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+.first img {
+    width: 100%;
+}
+
+.but {
+    border: inset;
+    padding: 10px;
+    border-color: #d5d5d5;
+}
+
+.first button {
+    width: 60px;
+    font-size: .5vw;
+    margin: 20px;
+    margin-top: 40px;
+    background: white;
+    color: gray;
+    border-color: gray;
+}
+
+.second {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.second h6 {
+    font-size: 2vw;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.income,
+.appreciation {
+    margin-top: 20px;
+}
+
+.inc {
+    font-size: .9vw;
+    color: gray;
+}
+
+.pr {
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.thirdtotal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.amountofcart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdtotal i {
+    color: orangered;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    width: 3vw;
+    height: 1.5vw;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5vw;
+    margin: 20px;
+}
+
+.thirdtotal p {
+    color: orangered;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    width: 6vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.fundedicon {
+    margin-top: 30px;
+    width: 100px;
+}
+
+.carttotal {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40%;
+    position: sticky;
+    top: 0;
+    margin-top: 20px;
+}
+
+.carttotals {
+    background: white;
+    height: auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carttotals h6 {
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.rights {
+    margin-left: 30%;
+    font-weight: 600;
+}
+
+.carttotals button {
+    font-size: 1vw;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    background: rgb(0, 0, 27);
+}
+
+@media (max-width: 768px) {
+    .fullcartitemdetail {
+        margin-left: 0%;
+    }
+
+    .cartitems {
+        margin-bottom: 30%;
+    }
+
+    .carttotal {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+    }
+
+    .carttotal {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin-top: 100%;
+    }
+
+    .carttotals {
+        background: white;
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .cartitems {
+        width: 100%;
+    }
+}

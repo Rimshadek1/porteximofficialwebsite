@@ -1,0 +1,255 @@
+.readytoshrinking {
+    margin-left: 19%;
+}
+
+.readytoshrinking h5 {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.portfoliovalue {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 93%;
+    height: 130px;
+    background: white;
+    border-radius: 10px;
+}
+
+.portfoliovalue .values {
+    position: relative;
+    left: 5%;
+    top: 25%;
+}
+
+.portfoliovalue .values p {
+    font-weight: 50;
+    font-size: 16px;
+}
+
+.keyfinancials .total {
+    display: flex;
+}
+
+.total .monthlyincome,
+.totalincome,
+.capitalappreciation {
+    width: 28.33%;
+    height: 100px;
+    background: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.total .totalincome {
+    margin-left: 55px;
+    display: flex;
+}
+
+.total .capitalappreciation {
+    margin-left: 55px;
+    display: flex;
+}
+
+.keyfinancials h6 {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.monthlyincome {
+    display: flex;
+}
+
+.coins {
+    margin: 30px;
+}
+
+.coins p {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.coins i {
+    color: orangered;
+}
+
+.amountdate p {
+    margin-left: 25px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.amountdate {
+    margin-top: -5px;
+}
+
+.monthlyincome .amountdate h5 {
+    margin-left: 70px;
+}
+
+.monthlyincome .amountdate p {
+    margin-left: 70px;
+}
+
+.totalincome .amountdate h5 {
+    margin-left: 70px;
+}
+
+.capitalappreciation .amountdate h5 {
+    margin-left: 70px;
+}
+
+.percentage {
+    margin-left: -40px;
+    margin-top: 12px;
+}
+
+.mystakes h6 {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.tablebody h6 {
+    font-weight: normal;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.transactiontable {
+    margin-bottom: 40px;
+}
+
+
+@media (max-width: 1250px) {
+    .readytoshrinking {
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    .readytoshrinking h5 {
+        margin-top: 30px;
+
+        font-weight: 700;
+    }
+
+    .portfoliovalue {
+        margin-top: 30px;
+        width: 95%;
+        height: 130px;
+        background: white;
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+
+    .portfoliovalue .values {
+        position: relative;
+        left: 5%;
+        top: 25%;
+    }
+
+    .portfoliovalue .values p {
+        font-weight: 50;
+        font-size: 16px;
+    }
+
+    .keyfinancials .total {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 5%;
+        /* Allow items to wrap to the next line on smaller screens */
+    }
+
+    .total .monthlyincome,
+    .total .totalincome,
+    .total .capitalappreciation {
+        width: 100%;
+        /* Take full width on smaller screens */
+        height: 100px;
+        background: white;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .keyfinancials h6 {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+
+    .monthlyincome,
+    .totalincome,
+    .capitalappreciation {
+        margin-left: 0;
+    }
+
+    .coins,
+    .amountdate {
+        margin: 10px;
+    }
+
+    .coins p,
+    .amountdate p {
+        font-size: 14px;
+    }
+
+    .coins i {
+        color: orangered;
+    }
+
+    .amountdate p {
+        margin-left: 10px;
+    }
+
+    .monthlyincome .amountdate h5,
+    .monthlyincome .amountdate p,
+    .totalincome .amountdate h5,
+    .capitalappreciation .amountdate h5 {
+        margin-left: 10px;
+    }
+
+    .portfolios {
+        width: 95%;
+    }
+
+    .table-heading {
+        display: none;
+    }
+
+    .percentage {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+
+    .mystakes h6 {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+
+    .tablebody h6 {
+        font-weight: normal;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .transactiontable {
+        margin-bottom: 20px;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 700px) {
+    .portfoliovalue {
+        margin-top: 30px;
+        width: 93%;
+        height: 130px;
+        background: white;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+}

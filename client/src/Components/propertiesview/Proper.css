@@ -1,0 +1,461 @@
+.fullview {
+    margin-left: 19%;
+    width: 81%;
+}
+
+.toptexts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.toptexts p {
+    text-align: left;
+    margin-right: auto;
+    font-size: 1vw;
+}
+
+.toptexts button {
+    text-align: right;
+    border-radius: 10px;
+    font-size: 1vw;
+}
+
+.image3 {
+    display: flex;
+    margin: 2%;
+}
+
+.img1 {
+    height: 30.3vw;
+    border-radius: 10px;
+}
+
+.img2 {
+    height: 14.3vw;
+    border-radius: 10px;
+}
+
+.img3 {
+    height: 14.3vw;
+    margin-top: 9%;
+    border-radius: 10px;
+}
+
+.img23 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5%;
+}
+
+.divdepri {
+    display: flex;
+}
+
+.divdet {
+    width: 60%;
+    margin: 2%;
+    background: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.divpri {
+    width: 40%;
+    margin: 2%;
+    background: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    position: sticky;
+    border-radius: 10px;
+}
+
+.seconddiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.secfirst {
+    margin: 2%;
+}
+
+.secfirst h3 {
+    font-size: 3.5vw;
+    font-weight: 750;
+}
+
+.secfirst p {
+    font-size: 1vw;
+}
+
+
+
+.secfirst1 {
+    border-top: groove;
+    border-color: rgb(255, 255, 255);
+    margin-top: 5%;
+}
+
+.secfirst1 .flags {
+    font-size: 2vw;
+}
+
+.secfirst1 .flagss {
+    font-size: 1.5vw;
+    margin-left: 2%;
+    font-weight: 600;
+}
+
+.secfirst2 {
+    margin-top: 20px;
+    border-bottom: groove;
+    border-color: rgb(255, 255, 255);
+}
+
+.secfirst2 .flags {
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+
+.secfirst2 .flagss {
+    font-size: 1.5vw;
+    margin-left: 2%;
+    font-weight: 600;
+
+}
+
+.secsecond {
+    margin: 2%;
+    margin-top: 10%;
+}
+
+
+
+.secsecond h3 {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.secsecond .overview-text {
+    font-size: 1vw;
+    font-weight: 400;
+    margin-top: 2%;
+}
+
+
+
+.secthird {
+    margin: 2%;
+    margin-top: 10%;
+}
+
+.secthird h3 {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.date {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.circle {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.two {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.green {
+    background-color: orangered;
+    width: 1vw;
+    height: 1vw;
+
+}
+
+.grey {
+    background-color: grey;
+}
+
+.date-text {
+    font-size: 1vw;
+}
+
+.date-text1 {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 16px;
+    font-size: .9vw;
+}
+
+.tradeprice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trade {
+    margin-top: 40px;
+    color: gray;
+}
+
+.tradeprice h2 {
+    margin-top: 10px;
+    color: orangered;
+    font-size: 2vw;
+    margin-bottom: 30px;
+}
+
+.price {
+    color: orangered;
+    font-size: 4vw;
+}
+
+.clock {
+    margin-top: 10px;
+}
+
+.detailsoftrade1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin: 1.5vw;
+}
+
+.detailsoftrade1 p {
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.detailsoftrade1 strong {
+    margin-left: 0;
+}
+
+.views {
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+
+.views p {
+    font-size: 1vw;
+    margin-left: 1vw;
+}
+
+.views i {
+    font-size: 1vw;
+}
+
+.detailsoftrade1 p {
+    font-size: 1vw;
+
+}
+
+.inputcart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.alldiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: groove;
+    width: 55%;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.alldiv p {
+    font-size: 1.5vw;
+    margin-left: 5px;
+}
+
+.inputcart button {
+    width: 30%;
+    height: 3.5vw;
+    font-size: 1vw;
+    background: rgb(0, 0, 39);
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.inputcart input {
+    width: 70%;
+    border-radius: 10px;
+    background: white;
+    border: none;
+    font-size: 1vw;
+    margin-right: -15px;
+}
+
+
+.indianflag {
+    font-size: 1.5vw;
+}
+
+@media (max-width: 1250px) {
+    .fullview {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .img1 {
+        height: 37.3vw;
+        border-radius: 10px;
+    }
+
+    .img2 {
+        height: 17.6vw;
+        border-radius: 10px;
+    }
+
+    .img3 {
+        height: 17.6vw;
+        border-radius: 10px;
+    }
+
+    .divdepri {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divdet {
+        width: 95%;
+        margin: 2%;
+        background: white;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+    }
+
+    .divpri {
+        width: 95%;
+        margin: 2%;
+        background: white;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        position: sticky;
+        border-radius: 10px;
+
+    }
+
+    .secfirst1 .flags {
+        font-size: 4vw;
+    }
+
+    .secfirst1 .flagss {
+        font-size: 2vw;
+    }
+
+    .secfirst1 p {
+        font-size: 2vw;
+    }
+
+    .secfirst2 .flags {
+        font-size: 4vw;
+    }
+
+    .secfirst2 .flagss {
+        font-size: 2vw;
+    }
+
+    .secfirst2 p {
+        font-size: 2vw;
+    }
+
+    .secsecond h3 {
+        font-size: 3vw;
+        margin-top: 10px;
+    }
+
+    .secsecond p {
+        font-size: 2vw;
+        margin-top: 10px;
+    }
+
+    .secsecond {
+        margin-top: 20px;
+    }
+
+    .secthird h3 {
+        font-size: 3vw;
+        margin-top: 10px;
+    }
+
+    .date-text {
+        font-size: 2vw;
+    }
+
+    .date-text1 {
+        font-size: 2vw;
+    }
+
+    .description {
+        font-size: 2vw;
+    }
+
+    .trade {
+        font-size: 2vw;
+    }
+
+    .price {
+        font-size: 6vw;
+    }
+
+    .tradeprice h2 {
+        font-size: 3.5vw;
+    }
+
+    .inputcart button {
+        width: 20%;
+        height: 6vw;
+        font-size: 2vw;
+        background: rgb(0, 0, 39);
+        color: white;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+
+    .inputcart input {
+        width: 70%;
+        border-radius: 10px;
+        background: white;
+        border: none;
+        font-size: 1vw;
+        margin-left: 5px;
+    }
+
+    .alldiv {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: groove;
+        width: 40%;
+        border-radius: 10px;
+        border-color: rgb(255, 255, 255);
+        height: 6vw;
+    }
+}

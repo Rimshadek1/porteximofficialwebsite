@@ -1,0 +1,10 @@
+.depositreal {
+    max-width: 33%;
+}
+
+.deposit-container form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}

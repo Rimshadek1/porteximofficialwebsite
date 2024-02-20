@@ -1,0 +1,42 @@
+.otpsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.fulls {
+    width: 100%;
+    max-width: 400px;
+
+    background-color: #fff;
+    /* Set a background color for the form container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 60vh;
+    padding: 0px 0px;
+    box-shadow: 0 0 15px -10px #48352d;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #F7FAFC;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.otpheading h1 {
+    font-size: 1.8vw;
+}
+
+@media (max-width: 768px) {
+    .fulls {
+        max-width: 100%;
+    }
+
+    .otpheading h1 {
+        font-size: 4vw;
+    }
+}

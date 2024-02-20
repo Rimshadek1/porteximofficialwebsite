@@ -1,0 +1,105 @@
+.full {
+    background: rgb(255, 248, 244);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    width: 30%;
+    height: 70%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center img {
+    height: 2vw;
+    width: 10vw;
+    margin-top: 5%;
+}
+
+.center h2 {
+    font-size: 3vw;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+.doc {
+    margin: 3%;
+}
+
+.doc p {
+    font-size: 1vw;
+}
+
+.doc input {
+    font-size: 1vw;
+}
+
+.center button {
+    background: rgb(0, 0, 22);
+    color: white;
+    border-radius: 10px;
+}
+
+.center button:hover {
+    background: rgb(0, 0, 53);
+    color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 750px) {
+    .center {
+        width: 70%;
+        height: 70%;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center img {
+        height: 4vw;
+        width: 20vw;
+        margin-top: 0%;
+    }
+
+    .center h2 {
+        font-size: 6vw;
+        font-weight: 600;
+        margin-top: 2%;
+    }
+
+    .doc {
+        margin: 1%;
+    }
+
+    .doc p {
+        font-size: 2vw;
+    }
+
+    .doc input {
+        font-size: 2vw;
+    }
+
+    .center button {
+        background: rgb(0, 0, 22);
+        color: white;
+        border-radius: 10px;
+        height: 6vw;
+        margin-top: 2%;
+        width: 40%;
+        font-size: 2.5vw;
+    }
+
+
+}

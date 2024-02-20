@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+    .readytoshrink {
+        width: 80%;
+        margin-left: 18%;
+    }
+
+    .readytoshrink .exortstatus .ready {
+        justify-content: left;
+        width: 50%;
+    }
+
+    .readytoshrink h1 {
+        font-size: x-large;
+    }
+}

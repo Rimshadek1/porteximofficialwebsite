@@ -1,0 +1,41 @@
+.fullfifth {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textparts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.textparts h1 {
+    font-size: 6vw;
+    margin-bottom: 10px;
+}
+
+.textparts p {
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+
+.imagephone {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+.imagephone img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
