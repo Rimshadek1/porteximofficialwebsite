@@ -26,7 +26,9 @@ router.get("/portfolioValue", controllers.portfolioValue);
 router.get("/getTradeDetailsProfit", adminController.getTradeDetailsProfit);
 router.get("/viewTradesFunded", adminController.viewTradesFunded);
 
-
+router.get('/', (req, res) => {
+    res.send('backend setup done')
+})
 //adminroutes
 
 router.post("/addtradedetails", adminController.addTradeDetails);
